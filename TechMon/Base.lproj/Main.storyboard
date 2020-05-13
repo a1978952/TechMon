@@ -177,7 +177,7 @@
                                 <fontDescription key="fontDescription" name="MisakiGothic" family="MisakiGothic" pointSize="17"/>
                                 <state key="normal" title="こうげき"/>
                                 <connections>
-                                    <action selector="attackAction" destination="W4r-AI-o7e" eventType="touchUpOutside" id="NNN-UQ-mH0"/>
+                                    <action selector="attackAction" destination="W4r-AI-o7e" eventType="touchUpInside" id="UVB-Dg-4u1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVh-sC-ENK">
@@ -187,7 +187,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="ファイア"/>
                                 <connections>
-                                    <action selector="fireAction" destination="W4r-AI-o7e" eventType="touchUpOutside" id="eCr-Ya-JG3"/>
+                                    <action selector="fireAction" destination="W4r-AI-o7e" eventType="touchUpInside" id="tBv-eg-aBT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhL-fT-FlZ">
